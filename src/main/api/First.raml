@@ -1,0 +1,11 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/e6dc63e1-aa0e-4da7-bbeb-93e13e614d39/ # 
+title: first
+/example:
+ get:
+   responses:
+     200:
+       body:
+        application/json:
+          examples:
+            {"MyFirstProject":"This is my first project"}
